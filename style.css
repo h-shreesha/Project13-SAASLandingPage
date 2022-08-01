@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+body{
+    font-family: 'Open Sans';
+    background-color: #3e3edd;
+} 
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 3rem 1rem 2rem;
+    align-items: center;
+    
+}
+
+.logo{
+    width: 150px;
+    padding-left: 6rem;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 5rem;
+    color: #fff;
+    justify-content: flex-end;
+    margin-left: 15rem;
+    margin-right: 2rem;
+}
+
+.register{
+    padding: 0.5rem 1rem;
+    background-color: #39e1ff;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.list :nth-child(1){
+    color: #8ebdf3;
+}
+
+.section1{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+
+.section1-left{
+    margin-top: 4rem;
+}
+
+.section1-left h1{
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.section1-left p{
+    color: #fff;
+}
+
+.section1 img{
+    width: 500px;
+}
+
+.section2{
+    padding-top: 3rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.section2 img{
+    width: 500px;
+}
+
+.section2 .section2-right{
+    margin: 2rem;
+}
+
+.section2-right h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.section2-right h2{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 2rem;
+}
+
+.section2-right p{
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.section3{
+    padding-top: 3rem;
+    background-color: #fff;
+}
+
+.section3 h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.section3-container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.img-wrapper{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+.wrapper1{
+    background-color: pink;
+}
+.wrapper2{
+    background-color: #fcecf8;
+}
+
+.wrapper3{
+    background-color: #bfe0ff;
+}
+
+.wrapper4{
+    background-color: #eda6ff;
+}
+
+.section3-container img{
+    width: 50px;
+    text-align: center;
+    padding: 1rem;
+    margin-left: 0.5rem;
+}
+
+.section3-cards{
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #fdf7f7;
+    box-shadow: 10px 0 5px -2px #888;
+}
+
+.section3-cards h3, p{
+    text-align: center;
+}
