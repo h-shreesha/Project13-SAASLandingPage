@@ -2,6 +2,10 @@
 
 By Shreesha
 
+Here's the Live Deployed Website of ![Project13Badge](https://img.shields.io/badge/Project-13-orange)
+
+## Project 13  [DEPLOYED LINK](https://project13-saas-lading-page.netlify.app/)
+
 ![websiteSnap](./readmeImages/websiteSnap.png)
 
 # What did I learn in this project
