@@ -160,3 +160,46 @@ body{
 .section3-cards h3, p{
     text-align: center;
 }
+
+@media screen and (max-width: 1261px) {
+    .logo{
+        width: 100px;
+        margin-left: -5rem;
+    }
+
+    .list{
+        display: flex;
+        gap: 3rem;
+        margin-left: 3rem;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .section1, .section2, .section3-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section1{
+        flex-direction: column-reverse;
+    } 
+
+    .section2, .section3-container{
+        flex-direction: column;
+    }
+
+    .section1-left h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .section1 img, .section2 img{
+        width: 400px;
+    }
+
+    .section2-right h1{
+        margin-top: -3rem;
+        text-align: center;
+    }
+}
